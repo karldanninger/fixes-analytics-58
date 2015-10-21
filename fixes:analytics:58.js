@@ -21,3 +21,9 @@ if (Meteor.isServer) {
     // code to run on server at startup
   });
 }
+
+FlowRouter.route("/", {
+  action: function() {
+    Blaze.render(Layout);
+  }
+});

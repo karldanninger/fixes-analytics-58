@@ -1,0 +1,3 @@
+[submodule "packages/analytics"]
+	path = packages/analytics
+	url = git@github.com:okgrow/analytics.git

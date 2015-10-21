@@ -24,6 +24,6 @@ if (Meteor.isServer) {
 
 FlowRouter.route("/", {
   action: function() {
-    Blaze.render(Layout);
+    BlazeLayout.render(Layout);
   }
 });
